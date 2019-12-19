@@ -4,7 +4,7 @@
 
 ## Notes
 
-- I used numpy in the basic validator `sudoku.py' for ease of grabbing submatrices and its built-in transpose function
+- I used numpy in the basic validator `sudoku.py` for ease of grabbing submatrices and its built-in transpose function
 
 - after deciding to write the more advanced SudokuValidator class, I figured I should try it without any external libraries.
   - `SudokuValidator` uses `zip` with a list comprehension for transpose ala:  `[list(i) for i in zip(*board)]`
